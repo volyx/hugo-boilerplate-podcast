@@ -1,1 +1,1 @@
-npm run build && hugo -d docs
+hugo -d docs && npm run build
