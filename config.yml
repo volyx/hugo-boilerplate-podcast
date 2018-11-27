@@ -1,4 +1,4 @@
-baseurl: "https://1000ch.github.io/hugo-boilerplate-podcast"
+baseurl: "https://1000ch.github.io"
 title: "hugo-boilerplate-podcast"
 footnotereturnlinkcontents: "↩"
 contentdir: "content"
