@@ -6,7 +6,7 @@
   },
   "scripts": {
     "start": "npm run build -- --watch & hugo server",
-    "build": "postcss $npm_package_config_postcss --output docs/css/app.css static/css/app.css & hugo server",
+    "build": "postcss $npm_package_config_postcss --output docs/css/app.css static/css/app.css & hugo -d docs",
     "lint": "stylelint static/css/*.css"
   },
   "stylelint": {
