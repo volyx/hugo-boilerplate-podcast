@@ -1,5 +1,5 @@
 baseurl: "/"
-title: "hugo-boilerplate-podcast"
+title: "Java Dev Podcast"
 footnotereturnlinkcontents: "↩"
 contentdir: "content"
 layoutdir: "layout"
@@ -9,7 +9,7 @@ uglyURLs: false
 metaDataFormat: "yaml"
 params:
   itunes: https://itunes.apple.com/podcast/id123456789
-  android: http://subscribeonandroid.com/1000ch.github.io/hugo-boilerplate-podcast/index.xml
-  feed: https://1000ch.github.io/hugo-boilerplate-podcast/index.xml
+  android: /index.xml
+  feed: /index.xml
 permalinks:
   post: "/:title"
